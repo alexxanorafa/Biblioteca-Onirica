@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore a interpretação de sonhos através de perspectivas junguianas e tradições populares">
+    <title>Jogo dos Sonhos Lúcidos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="menu">
+        <a href="https://alexxanorafa.github.io/Tempo_e_Sonhos/" class="menu-item">Tempo e Sonhos</a>
+        <a href="https://alexxanorafa.github.io/posicionamentodosastros/" class="menu-item">Mapa Astral</a>
+        <a href="https://alexxanorafa.github.io/Aneis_da_Sabedoria/" class="menu-item">Anéis da Sabedoria</a>
+        <a href="https://alexxanorafa.github.io/TarodeMarselha/" class="menu-item">Tarô de Marselha</a>
+        <a href="https://alexxanorafa.github.io/Runas-do-Destino/" class="menu-item">Runas do Destino</a>
+        <a href="https://alexxanorafa.github.io/O-Construtor-do-Destino/" class="menu-item">O Construtor do Destino</a>
+        <a href="https://alexxanorafa.github.io/Tabuleiro-Quantico/" class="menu-item">Tabuleiro Quantico</a>
+        <a href="https://alexxanorafa.github.io/Oraculo-das-Pedras/" class="menu-item">Oráculo das Pedras</a>
+        <a href="https://alexxanorafa.github.io/I-Ching-Virtual/" class="menu-item">I Ching Virtual</a>
+    </nav>
+
+    <div class="container">
+        <h1>🌙 Biblioteca Onírica</h1>
+        <div id="symbols-section" class="visible">
+            <h2>Escolha um símbolo do seu sonho:</h2>
+            <div class="symbols-grid" id="symbols"></div>
+        </div>
+        
+        <div id="interpretation-section" class="hidden">
+            <h2 id="symbol-title"></h2>
+            <div class="interpretations">
+                <div class="interpretation-box">
+                    <h3>🧠 Visão Junguiana</h3>
+                    <div id="jung-text" class="typing-effect"></div>
+                </div>
+                <div class="interpretation-box">
+                    <h3>🌍 Tradição Popular</h3>
+                    <div id="popular-text" class="typing-effect"></div>
+                </div>
+            </div>
+            <button onclick="resetGame()">🔁 Novo Símbolo</button>
+        </div>
+    </div>
+
+    <footer class="footer-mistico">
+        <p>✧⋄⋆⋅⋄✦⋄⋆⋅⋄✧<br>
+        Explore seus sonhos com sabedoria<br>
+        ⋯ ⋯ ⋯</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
