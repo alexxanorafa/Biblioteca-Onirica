@@ -7,6 +7,10 @@ const symbolsData = {
         jung: "Os acidentes nos sonhos podem simbolizar conflitos internos, choques entre diferentes partes da psique ou uma sensação de perda de controle sobre a própria vida.",
         popular: "Um acidente pode ser um alerta para perigos futuros ou um reflexo de ansiedade em relação a decisões importantes que precisam ser tomadas com cautela."
     },
+    'afogamento': {
+        jung: "O afogamento representa a sensação de estar emocionalmente sobrecarregado. Pode simbolizar um mergulho no inconsciente ou a incapacidade de lidar com sentimentos reprimidos.",
+        popular: "Sonhar que se está a afogar pode indicar medo de perder o controlo sobre uma situação ou emoções intensas que precisam de ser libertadas."
+    },
     'água': {
         jung: "A água, em seu fluxo ininterrupto, revela o inconsciente, sendo o espelho das emoções mais profundas. A água límpida é a clareza da alma, o autoconhecimento a ser conquistado; já a água turva, em sua imprevisibilidade, traz à tona os aspectos não resolvidos que ainda aguardam iluminação.",
         popular: "Sonhar com a água é uma dança com o estado emocional. A água parada é um símbolo de estagnação, como se o espírito estivesse preso, sem evolução; mas a água corrente, com sua energia que se renova constantemente, é um presságio de mudanças profundas e regeneradoras."
@@ -27,6 +31,10 @@ const symbolsData = {
         jung: "O arco-íris simboliza a integração de opostos, a união entre o céu e a terra. Ele representa esperança, transformação e o encontro com uma nova perspectiva espiritual.",
         popular: "Sonhar com um arco-íris é um sinal de boas notícias, harmonia e sorte. Ele representa a superação de dificuldades e a chegada de tempos melhores."
     },
+    'avião': {
+        jung: "O avião simboliza aspirações elevadas e o desejo de transcender limitações. Pode representar mudanças significativas, tanto internas como externas.",
+        popular: "Se o avião descola, pode indicar novos começos; se cai, pode ser um sinal de preocupações ou medo do fracasso."
+    },
     'bebê': {
         jung: "O bebê é o símbolo de novos começos, da pureza da alma e do potencial ainda não desenvolvido. Ele representa a vulnerabilidade, a necessidade de cuidado e a promessa de um futuro que ainda está por ser moldado.",
         popular: "Sonhar com um bebê é um sinal de boas novas, de inocência e da promessa de felicidade. No entanto, também pode trazer à tona preocupações com a dependência e a responsabilidade que a inocência exige de nós."
@@ -42,6 +50,10 @@ const symbolsData = {
     'casa': {
         jung: "A casa simboliza a psique do sonhador, sendo cada cômodo um espaço da alma. A cada andar e a cada porta, revelamos diferentes aspectos de nós mesmos. A casa, em sua totalidade, é um reflexo do estado interno, das questões resolvidas e das não resolvidas.",
         popular: "Sonhar com uma casa é muitas vezes um reflexo da nossa estabilidade emocional ou da falta dela. Cada cômodo, cada detalhe pode revelar algo sobre nossa vida, nossas relações familiares ou aspectos ocultos da nossa personalidade."
+    },
+    'carro': {
+        jung: "O carro representa a direcção da vida e o controlo que temos sobre ela. Um carro desgovernado pode indicar falta de controlo sobre decisões importantes.",
+        popular: "Se conduzir um carro no sonho, pode significar independência; se o carro estiver avariado, pode indicar obstáculos no caminho."
     },
     'caverna': {
         jung: "A caverna é um arquétipo do inconsciente profundo, um lugar de introspecção e descoberta. Adentrar uma caverna nos sonhos simboliza o desejo de autoconhecimento e o enfrentamento dos próprios medos.",
@@ -63,6 +75,10 @@ const symbolsData = {
         jung: "A chuva simboliza a purificação emocional, a renovação que se segue à tempestade interna. Ela lava a alma, trazendo renovação e um novo começo.",
         popular: "Chuva em sonhos é vista de formas contrastantes. A chuva leve é bênção, um sinal de prosperidade e serenidade, enquanto a tempestade simboliza dificuldades, emoções intensas que precisam ser expressas e liberadas."
     },
+    'cobra': {
+        jung: "A cobra é um símbolo de transformação, energia instintiva e o inconsciente. Pode representar tanto sabedoria como perigos ocultos.",
+        popular: "Dependendo do contexto, sonhar com uma cobra pode indicar traição, medo ou cura e renovação espiritual."
+    },
     'comboio': {
         jung: "O comboio é o símbolo da jornada da vida, da busca por destino e propósito. Ele nos leva, sem que possamos controlar totalmente o caminho, mas nos ensina a confiar na direção que tomamos.",
         popular: "Estar em um comboio pode significar progresso, uma sensação de movimento em direção ao futuro, enquanto perder o comboio pode representar oportunidades que foram desperdiçadas ou o medo de não conseguir alcançar nossas metas."
@@ -78,6 +94,10 @@ const symbolsData = {
     'dinheiro': {
         jung: "O dinheiro, além de ser um símbolo de valor material, também representa a autoestima, o poder e o controle que exercemos sobre a nossa vida. A relação com o dinheiro é reflexo da nossa própria percepção de valor e do nosso lugar no mundo.",
         popular: "Sonhar com dinheiro pode ser um símbolo de prosperidade, mas também pode trazer à tona as preocupações financeiras e as ansiedades que temos sobre nossa segurança e estabilidade."
+    },
+    'escadas': {
+        jung: "As escadas representam progresso e evolução espiritual. Subir pode indicar crescimento pessoal, enquanto descer pode significar um mergulho no inconsciente.",
+        popular: "Se sobe escadas com facilidade, pode indicar sucesso; se tem dificuldades, pode ser um aviso de desafios futuros."
     },
     'escola': {
         jung: "A escola representa a aprendizagem contínua e a necessidade de amadurecimento emocional e intelectual. Sonhar com uma escola pode indicar uma busca por autoconhecimento ou um sentimento de inadequação perante desafios.",
@@ -123,6 +143,10 @@ const symbolsData = {
         jung: "A ilha simboliza o isolamento, mas também a introspecção. Ela pode representar um refúgio ou a sensação de estar desconectado do resto do mundo.",
         popular: "Ver uma ilha nos sonhos pode significar a necessidade de um tempo sozinho para reflexão. Se a ilha está deserta, pode simbolizar solidão, mas se há vegetação e vida, é um sinal de renovação."
     },
+    'inundação': {
+        jung: "A inundação simboliza emoções reprimidas que vêm à superfície. Pode indicar uma necessidade de libertar sentimentos intensos.",
+        popular: "Sonhar com uma inundação pode ser um aviso para não deixar que as emoções tomem conta da vida ou que uma situação está a escapar ao controlo."
+    },
     'labaredas': {
         jung: "As labaredas representam a intensidade emocional, a destruição e a purificação. Elas podem simbolizar paixões ardentes ou uma necessidade urgente de transformação.",
         popular: "Se as labaredas estão fora de controle, pode ser um alerta de emoções reprimidas. Se são contidas ou controladas, indicam que uma transformação está sendo bem direcionada."
@@ -130,6 +154,10 @@ const symbolsData = {
     'labirinto': {
         jung: "O labirinto é o espaço do inconsciente onde nos perdemos e nos encontramos. Ele reflete a complexidade da nossa psique, a busca interminável por autoconhecimento e a constante tentativa de resolver os dilemas internos que nos afligem.",
         popular: "Estar perdido no labirinto é uma representação das dificuldades de decidir e o sentimento de desorientação que às vezes tomam conta da nossa vida. Contudo, atravessá-lo pode ser uma metáfora para a superação, a busca por respostas no coração da confusão."
+    },
+    'lobo': {
+        jung: "O lobo representa instintos primitivos, solidão e a necessidade de conexão com a própria natureza selvagem.",
+        popular: "Se o lobo é amigável, pode representar proteção e orientação; se for ameaçador, pode simbolizar medo ou traição."
     },
     'mar': {
         jung: "O mar é a vastidão do inconsciente, um espaço de profundas emoções e mistérios. Suas águas calmas indicam serenidade interior, enquanto as águas revoltas refletem os desafios emocionais e a turbulência que nos afeta.",
@@ -207,6 +235,10 @@ const symbolsData = {
         jung: "O terremoto simboliza mudanças internas profundas e a necessidade de reconstrução emocional e psicológica. Ele representa o colapso de velhas estruturas para dar espaço ao novo.",
         popular: "Sonhar com um terremoto pode ser um aviso de eventos inesperados ou de transformações radicais que estão por vir."
     },
+    'trovão': {
+        jung: "O trovão representa forças poderosas do inconsciente. Pode simbolizar uma revelação súbita ou um aviso sobre emoções intensas.",
+        popular: "Um trovão pode ser um sinal de perigo iminente ou de mudanças inesperadas que podem trazer transformação."
+    },
     'túmulo': {
         jung: "O túmulo representa o fim de um ciclo, um símbolo de transformação e renascimento. Ele pode indicar a necessidade de deixar algo para trás para seguir adiante.",
         popular: "Ver um túmulo pode significar mudanças ou o encerramento de uma fase da vida. Se o túmulo está aberto, pode indicar a necessidade de revisitar questões do passado."
@@ -218,6 +250,10 @@ const symbolsData = {
     'vestido': {
         jung: "O vestido reflete a identidade e a autoimagem, sendo a veste da alma que nos revela ao mundo. A forma como o usamos diz muito sobre como nos vemos e como desejamos ser vistos.",
         popular: "Sonhar com um vestido bonito pode ser um reflexo de felicidade e realização, enquanto um vestido rasgado simboliza insegurança, a perda da nossa própria confiança e autoestima."
+    },
+    'viagem': {
+        jung: "A viagem simboliza a jornada interior e o crescimento pessoal. Pode representar uma busca por respostas ou uma mudança significativa na vida.",
+        popular: "Se a viagem é tranquila, pode indicar progresso e sucesso; se há dificuldades, pode significar desafios no caminho."
     },
     'voar': {
         jung: "Voar é o símbolo supremo de libertação e transcendência. É o desejo de escapar das amarras da realidade, uma busca por autonomia, ou a tentativa de fugir dos dilemas que nos aprisionam. Voar nos sonhos é um convite à liberdade do ser.",
