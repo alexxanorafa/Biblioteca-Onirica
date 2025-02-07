@@ -1,3 +1,36 @@
+// script.js
+// ========== CÓDIGO DO MENU ==========
+document.addEventListener("DOMContentLoaded", function() {
+    const menuIcon = document.getElementById("menuIcon");
+    const menu = document.getElementById("menu");
+
+    // Abrir/Fechar menu
+    menuIcon.addEventListener("click", function(e) {
+        e.stopPropagation();
+        menu.classList.toggle("active");
+        menuIcon.classList.toggle("active");
+    });
+
+    // Fechar menu ao clicar fora
+    document.addEventListener("click", function(e) {
+        if (!menu.contains(e.target) && !menuIcon.contains(e.target)) {
+            menu.classList.remove("active");
+            menuIcon.classList.remove("active");
+        }
+    });
+
+    // Animar itens do menu
+    document.querySelectorAll(".menu-item").forEach(item => {
+        item.addEventListener("mouseenter", function() {
+            this.style.transform = "translateY(-3px)";
+        });
+        
+        item.addEventListener("mouseleave", function() {
+            this.style.transform = "translateY(0)";
+        });
+    });
+});
+
 const symbolsData = {
     'abismo': {
         jung: "O abismo representa o desconhecido, o medo do vazio e do que está além do nosso controle. Sonhar com um abismo pode simbolizar um chamado para enfrentar os aspectos mais profundos e sombrios do inconsciente.",
