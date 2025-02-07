@@ -230,8 +230,8 @@ h3 {
 }
 
 .interpretation-box {
-    color: #2c3e50;
-    background: var(--cor-primaria);
+    color: #d4b192;
+    background: #2c3e50;
     padding: 20px;
     border-radius: 12px;
     border: 1px solid var(--cor-secundaria);
@@ -242,19 +242,12 @@ h3 {
 
 .interpretation-box::before {
     content: '';
-    position: absolute;
+    position: relative;
     top: -50%;
     left: -50%;
-    width: 200%;
-    height: 200%;
-    background: linear-gradient(45deg, 
-        transparent 25%,
-        rgba(212, 177, 146, 0.1) 25%,
-        rgba(212, 177, 146, 0.1) 50%,
-        transparent 50%,
-        transparent 75%,
-        rgba(212, 177, 146, 0.1) 75%
-    );
+    width: 100%;
+    height: 100%;
+    background: #d4b192;
     background-size: 4px 4px;
     animation: patternMove 20s linear infinite;
 }
