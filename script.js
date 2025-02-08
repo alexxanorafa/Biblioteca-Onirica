@@ -32,6 +32,10 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 const symbolsData = {
+    'abelha': {
+        jung: "A abelha simboliza trabalho coletivo, organização e doação. Representa a integração harmoniosa entre o indivíduo e a comunidade, além da produtividade orientada para um propósito maior.",
+        popular: "Sonhar com abelhas pode significar prosperidade e trabalho frutífero, mas também alerta para possíveis 'picadas' ou pequenos aborrecimentos no caminho do sucesso."
+    },
     'abismo': {
         jung: "O abismo representa o desconhecido, o medo do vazio e do que está além do nosso controle. Sonhar com um abismo pode simbolizar um chamado para enfrentar os aspectos mais profundos e sombrios do inconsciente.",
         popular: "Ver um abismo nos sonhos pode ser um aviso de perigo iminente ou uma sensação de estar à beira de uma decisão importante. Cair no abismo indica medo e insegurança, enquanto recuar simboliza prudência."
@@ -47,6 +51,10 @@ const symbolsData = {
     'água': {
         jung: "A água, em seu fluxo ininterrupto, revela o inconsciente, sendo o espelho das emoções mais profundas. A água límpida é a clareza da alma, o autoconhecimento a ser conquistado; já a água turva, em sua imprevisibilidade, traz à tona os aspectos não resolvidos que ainda aguardam iluminação.",
         popular: "Sonhar com a água é uma dança com o estado emocional. A água parada é um símbolo de estagnação, como se o espírito estivesse preso, sem evolução; mas a água corrente, com sua energia que se renova constantemente, é um presságio de mudanças profundas e regeneradoras."
+    },
+    'arco e flecha': {
+        jung: "Simboliza direcionamento de energia, foco e a busca por objetivos. Representa a necessidade de alinhar intenções com ações.",
+        popular: "Sonhar com arco e flecha indica determinação para alcançar metas, mas se a flecha erra o alvo, pode sugerir frustrações ou desvios de propósito."
     },
     'alguém desconhecido': {
         jung: "O desconhecido nos sonhos representa partes reprimidas ou não reconhecidas de nós mesmos. A figura enigmática pode ser um arquétipo da sombra ou um mensageiro do inconsciente.",
@@ -76,6 +84,10 @@ const symbolsData = {
         jung: "O bebê é o símbolo de novos começos, da pureza da alma e do potencial ainda não desenvolvido. Ele representa a vulnerabilidade, a necessidade de cuidado e a promessa de um futuro que ainda está por ser moldado.",
         popular: "Sonhar com um bebê é um sinal de boas novas, de inocência e da promessa de felicidade. No entanto, também pode trazer à tona preocupações com a dependência e a responsabilidade que a inocência exige de nós."
     },
+    'biblioteca': {
+        jung: "Arquétipo do conhecimento acumulado e sabedoria coletiva. Pode representar a busca por autoconhecimento ou respostas no inconsciente coletivo.",
+        popular: "Sonhar com bibliotecas sugere que a solução para seus problemas está no estudo ou em conhecimentos que você já possui."
+    },
     'buraco': {
         jung: "O buraco simboliza os medos ocultos e os desafios inesperados. Ele representa uma queda no inconsciente, onde precisamos enfrentar o que foi escondido das nossas consciências.",
         popular: "Cair em um buraco pode ser o presságio de dificuldades inesperadas, enquanto sair de um buraco simboliza a superação de obstáculos e a capacidade de se reerguer após as adversidades."
@@ -83,6 +95,10 @@ const symbolsData = {
     'cair': {
         jung: "Cair é o símbolo do medo da perda de controle, do fracasso iminente. É um lembrete de que precisamos aterrar nossos sonhos e ideias, confrontar nossas limitações e lidar com a sensação de impotência que nos assola.",
         popular: "Quando se acorda antes de cair, dizem as crenças populares, isso significa que se conseguiu escapar de um presságio negativo. O ato de cair é o confronto com as próprias falhas, o despertar da consciência de nossos medos mais profundos."
+    },
+    'cão': {
+        jung: "Representa lealdade, instintos naturais e aspectos da personalidade que buscam aprovação social. Cães ferozes podem simbolizar sombras reprimidas.",
+        popular: "Cachorro amigável indica amizades fiéis, enquanto cachorro agressivo alerta para inimigos ou traições ocultas."
     },
     'carro': {
         jung: "O carro representa a direcção da vida e o controlo que temos sobre ela. Um carro desgovernado pode indicar falta de controlo sobre decisões importantes.",
@@ -140,6 +156,10 @@ const symbolsData = {
         jung: "O dinheiro, além de ser um símbolo de valor material, também representa a autoestima, o poder e o controle que exercemos sobre a nossa vida. A relação com o dinheiro é reflexo da nossa própria percepção de valor e do nosso lugar no mundo.",
         popular: "Sonhar com dinheiro pode ser um símbolo de prosperidade, mas também pode trazer à tona as preocupações financeiras e as ansiedades que temos sobre nossa segurança e estabilidade."
     },
+    'elefante': {
+        jung: "Símbolo de memória ancestral, força interior e sabedoria paciente. Pode representar aspectos da personalidade que carregam grandes responsabilidades.",
+        popular: "Sonhar com elefantes traz presságios de estabilidade e poder, mas também alerta para o perigo de ignorar obstáculos evidentes."
+    },
     'escadas': {
         jung: "As escadas representam progresso e evolução espiritual. Subir pode indicar crescimento pessoal, enquanto descer pode significar um mergulho no inconsciente.",
         popular: "Se sobe escadas com facilidade, pode indicar sucesso; se tem dificuldades, pode ser um aviso de desafios futuros."
@@ -172,6 +192,10 @@ const symbolsData = {
         jung: "Uma festa nos sonhos pode representar o desejo de conexão social, celebração da vida ou, em alguns casos, uma tentativa de escapar de questões internas importantes.",
         popular: "Participar de uma festa pode indicar alegria e boas novas, enquanto uma festa desagradável pode refletir sentimentos de exclusão ou solidão."
     },
+    'flor': {
+        jung: "Manifestação da beleza interior, florescimento psíquico e potencial criativo. Flores murchas podem indicar desgaste emocional.",
+        popular: "Flores frescas simbolham amor e novos começos, enquanto flores cortadas podem sugerir relações efêmeras."
+    },
     'floresta': {
         jung: "A floresta é o território do inconsciente, um espaço de mistério e busca espiritual. Caminhar por ela é o enfrentamento dos nossos medos, o confronto com o desconhecido dentro de nós mesmos.",
         popular: "Perder-se na floresta pode simbolizar confusão e a sensação de estar perdido na vida, enquanto atravessá-la com sucesso indica superação, coragem e a descoberta de uma verdade mais profunda."
@@ -183,6 +207,10 @@ const symbolsData = {
     'fuga': {
         jung: "Fugir em um sonho simboliza a negação de um aspecto da psique que se recusa a ser enfrentado. Pode representar um desejo de evitar responsabilidades ou o medo de algo interno que precisa ser integrado.",
         popular: "Se você foge de algo em um sonho, pode significar que está tentando escapar de problemas na vida real. Se consegue se esconder ou escapar com sucesso, é um bom presságio de superação."
+    },
+    'gato': {
+        jung: "Representa independência, mistério e conexão com o feminino sagrado. Gatos negros podem simbolizar o confronto com medos irracionais.",
+        popular: "Sonhar com gatos traz presságios ambíguos: podem indicar sorte ou advertir sobre falsas aparências e traições."
     },
     'hospital': {
         jung: "O hospital é um símbolo de cura e transformação. Ele representa a necessidade de autocuidado e de um processo de regeneração emocional e psicológica.",
@@ -208,6 +236,10 @@ const symbolsData = {
         jung: "O lobo representa instintos primitivos, solidão e a necessidade de conexão com a própria natureza selvagem.",
         popular: "Se o lobo é amigável, pode representar proteção e orientação; se for ameaçador, pode simbolizar medo ou traição."
     },
+    'lua': {
+        jung: "Arquétipo do feminino, ciclos e inconsciente. Lua cheia simboliza plenitude, enquanto lua nova indica reinícios e potencial oculto.",
+        popular: "Lua brilhante pressagia sorte e intuição, lua escura alerta para períodos de incerteza e reflexão necessária."
+    },
     'mar': {
         jung: "O mar é a vastidão do inconsciente, um espaço de profundas emoções e mistérios. Suas águas calmas indicam serenidade interior, enquanto as águas revoltas refletem os desafios emocionais e a turbulência que nos afeta.",
         popular: "Sonhar com o mar é frequentemente um reflexo das nossas emoções. O mar calmo é um presságio de tranquilidade e harmonia, enquanto o mar agitado nos alerta para os desafios que precisamos enfrentar."
@@ -220,6 +252,10 @@ const symbolsData = {
         jung: "A morte, no simbolismo de Jung, é uma poderosa metáfora de transformação. Não a morte física, mas a morte de um ciclo, a necessidade de deixar ir para que algo novo possa surgir. A morte nos sonhos é o convite para o renascimento espiritual.",
         popular: "Para as tradições populares, a morte é um presságio de mudança significativa. Não uma perda, mas um marco de recomeço, uma viragem nas nossas vidas que se apresenta como uma oportunidade disfarçada de fim."
     },
+    'navio': {
+        jung: "Simboliza jornadas emocionais e a navegação pelo inconsciente. Navio naufragando pode representar medo de perder o controle sobre as emoções.",
+        popular: "Navio em mar calmo indica viagem bem-sucedida na vida, navio à deriva sugere falta de direção em projetos importantes."
+    },
     'neve': {
         jung: "A neve simboliza o congelamento emocional, um período de introspecção e pausa. Também pode representar pureza e renovação, como um renascimento após o inverno da alma.",
         popular: "Ver neve nos sonhos pode indicar um período de tranquilidade ou solidão. Se a neve está derretendo, pode simbolizar a resolução de um problema ou uma mudança positiva iminente."
@@ -228,13 +264,25 @@ const symbolsData = {
         jung: "A nudez é o espelho da nossa vulnerabilidade. Ao nos despojarmos das máscaras que usamos, encaramos a nossa essência mais pura, muitas vezes com medo da exposição. É a busca pela autenticidade e o confronto com os próprios receios.",
         popular: "Sonhar com a nudez é, na maioria das vezes, um símbolo de vergonha e insegurança. Contudo, pode também representar a libertação das convenções sociais, um desejo profundo de ser verdadeiro consigo mesmo e com o mundo."
     },
+    'oculos': {
+        jung: "Representa clareza mental, novas perspectivas ou a necessidade de enxergar verdades ocultas. Óculos quebrados podem simbolizar autoengano.",
+        popular: "Sonhar que perde os óculos alerta para detalhes importantes que estão sendo negligenciados."
+    },
     'olhos': {
         jung: "Os olhos são o reflexo da alma, um símbolo de percepção e consciência. Sonhar com olhos pode representar a necessidade de enxergar a verdade ou uma nova perspectiva sobre a vida.",
         popular: "Se no sonho os olhos estão fechados, pode indicar negação ou falta de clareza. Olhos brilhantes simbolizam intuição aguçada e sabedoria."
     },
+    'ouro': {
+        jung: "Símbolo do Self e da totalidade psíquica. Representa valores autênticos e a busca por significado existencial.",
+        popular: "Ouro em sonhos pressagia riqueza material ou espiritual, mas ouro falsificado alerta para ilusões perigosas."
+    },
     'passaporte': {
         jung: "O passaporte simboliza a identidade e a jornada para o autoconhecimento. Ele pode representar uma transição ou uma oportunidade de mudança significativa na vida.",
         popular: "Sonhar com um passaporte pode indicar desejo de viajar, mudanças iminentes ou a necessidade de explorar novas oportunidades."
+    },
+    'passaro': {
+        jung: "Representa liberdade espiritual e conexão com o divino. Pássaros feridos podem simbolizar criatividade reprimida.",
+        popular: "Pássaros voando trazem mensagens de esperança, pássaros engaiolados indicam sentimentos de restrição na vida real."
     },
     'perseguição': {
         jung: "A perseguição nos sonhos é a manifestação de aspectos reprimidos, sombras da nossa psique que nos assombram e nos forçam a confrontá-las. Aquele que foge dos outros, na verdade, foge de si mesmo.",
@@ -284,6 +332,10 @@ const symbolsData = {
         jung: "Representa medos internos, conflitos reprimidos ou partes da personalidade que se tenta evitar.",
         popular: "Pode significar fuga de problemas na vida real ou uma necessidade de enfrentar desafios."
     },
+    'sol': {
+        jung: "Arquétipo da consciência, energia vital e iluminação espiritual. Sol poente pode representar transições entre fases da vida.",
+        popular: "Sol brilhante indica otimismo e sucesso, eclipse solar alerta para períodos temporários de dificuldades."
+    },
     'sombra': {
         jung: "A sombra representa os aspectos reprimidos da psique, partes de nós que evitamos reconhecer. Enfrentar a própria sombra nos sonhos é um convite ao autoconhecimento e à aceitação.",
         popular: "Ver uma sombra pode ser um sinal de medo do desconhecido ou de algo oculto em sua vida. Se a sombra persegue você, pode indicar ansiedade sobre algo que está tentando evitar."
@@ -299,6 +351,10 @@ const symbolsData = {
     'terremoto': {
         jung: "O terremoto simboliza mudanças internas profundas e a necessidade de reconstrução emocional e psicológica. Ele representa o colapso de velhas estruturas para dar espaço ao novo.",
         popular: "Sonhar com um terremoto pode ser um aviso de eventos inesperados ou de transformações radicais que estão por vir."
+    },
+    'tesouro': {
+        jung: "Simboliza a busca por autoconhecimento e valores internos. Tesouros enterrados representam potenciais não explorados.",
+        popular: "Encontrar tesouro pressagia sorte inesperada, perder tesouro alerta para oportunidades desperdiçadas."
     },
     'traição': {
         jung: "Pode refletir inseguranças, medos profundos de abandono ou a sensação de não estar a ser valorizado.",
@@ -316,6 +372,10 @@ const symbolsData = {
         jung: "Simboliza transição, transformação e o caminho para o desconhecido.",
         popular: "Se o túnel tem luz no final, pode indicar esperança; se for escuro, pode representar medo do futuro."
     },
+    'vampiro': {
+        jung: "Representa drenagem de energia vital, relacionamentos tóxicos ou aspectos parasitas da personalidade.",
+        popular: "Sonhar com vampiros sugere que pessoas ou situações estão lhe causando esgotamento físico ou emocional."
+    },
     'vento': {
         jung: "O vento simboliza forças invisíveis que influenciam a vida. Pode representar mudanças internas e a necessidade de adaptação ao que não se pode controlar.",
         popular: "Se o vento é suave, pode indicar mudanças positivas. Se é uma ventania forte, pode ser um alerta para desafios turbulentos no caminho."
@@ -331,6 +391,10 @@ const symbolsData = {
     'voar': {
         jung: "Voar é o símbolo supremo de libertação e transcendência. É o desejo de escapar das amarras da realidade, uma busca por autonomia, ou a tentativa de fugir dos dilemas que nos aprisionam. Voar nos sonhos é um convite à liberdade do ser.",
         popular: "O voo, nas lendas e crenças populares, é um presságio de sucesso, mas a dificuldade em alcançar as alturas é um aviso sobre obstáculos à frente, sugerindo que o caminho para a realização nem sempre é fácil."
+    },
+    'zombi': {
+        jung: "Símbolo de apatia emocional, rotinas vazias e medo de perder a autenticidade. Representa aspectos da psique que agem mecanicamente.",
+        popular: "Zombis em sonhos alertam para a necessidade de revitalizar áreas estagnadas da vida e reconectar-se com paixões."
     }
 };
 let historyStack = [];
