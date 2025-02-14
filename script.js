@@ -332,6 +332,26 @@ const symbolsData = {
         jung: "Representa medos internos, conflitos reprimidos ou partes da personalidade que se tenta evitar.",
         popular: "Pode significar fuga de problemas na vida real ou uma necessidade de enfrentar desafios."
     },
+        'sexo': {
+        jung: "O sexo nos sonhos pode simbolizar a integração de opostos dentro da psique, representando a união entre o consciente e o inconsciente. Também pode estar relacionado à energia criativa, desejo reprimido ou à necessidade de conexão emocional e física.",
+        popular: "Sonhar com sexo pode significar desejo, paixão ou carência afetiva. Se o sonho é prazeroso, pode indicar harmonia emocional; se for desconfortável, pode revelar inseguranças, repressões ou conflitos internos sobre a própria sexualidade."
+    },
+    'sexo com desconhecido': {
+        jung: "Fazer sexo com um desconhecido num sonho pode representar a exploração de partes ocultas da psique. Muitas vezes, simboliza o desejo de integração de novas qualidades ou a necessidade de se libertar de restrições internas.",
+        popular: "Este sonho pode indicar aventura e desejo de experiências novas. Se for agradável, pode ser um sinal de abertura para mudanças; se causar desconforto, pode revelar medo do desconhecido ou insegurança emocional."
+    },
+    'sexo com alguém conhecido': {
+        jung: "Sonhar com sexo com alguém conhecido pode simbolizar a necessidade de absorver características dessa pessoa para o desenvolvimento pessoal. Em alguns casos, pode refletir sentimentos inconscientes por essa pessoa ou a necessidade de resolver tensões emocionais com ela.",
+        popular: "Se o sonho envolve um amigo ou colega, pode apenas representar uma forte ligação emocional. Se envolver alguém pelo qual o sonhador não sente atração na vida real, pode ser um sinal de proximidade psicológica ou uma mensagem simbólica sobre essa relação."
+    },
+    'sexo com ex-parceiro': {
+        jung: "Este sonho pode surgir quando existem questões não resolvidas com o passado, sendo um reflexo de memórias ou emoções que ainda precisam ser processadas. Também pode indicar que o sonhador está a integrar lições dessa relação no seu presente.",
+        popular: "Pode ser um sinal de saudade, carência ou desejo de fechar um ciclo emocional. Se o sonho for recorrente, pode indicar que há sentimentos ou situações do passado que ainda precisam de resolução."
+    },
+    'sexo proibido ou tabu': {
+        jung: "O desejo por algo proibido pode simbolizar a tentativa de integrar impulsos reprimidos na psique. Este tipo de sonho pode estar relacionado com a necessidade de explorar partes da personalidade que foram suprimidas ou censuradas.",
+        popular: "Sonhar com sexo proibido pode causar sentimentos de culpa ou vergonha, refletindo desejos reprimidos ou conflitos internos. Pode também indicar curiosidade e vontade de experimentar algo novo na vida real."
+    }
     'sol': {
         jung: "Arquétipo da consciência, energia vital e iluminação espiritual. Sol poente pode representar transições entre fases da vida.",
         popular: "Sol brilhante indica otimismo e sucesso, eclipse solar alerta para períodos temporários de dificuldades."
