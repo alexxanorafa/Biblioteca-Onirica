@@ -351,7 +351,7 @@ const symbolsData = {
     'sexo proibido ou tabu': {
         jung: "O desejo por algo proibido pode simbolizar a tentativa de integrar impulsos reprimidos na psique. Este tipo de sonho pode estar relacionado com a necessidade de explorar partes da personalidade que foram suprimidas ou censuradas.",
         popular: "Sonhar com sexo proibido pode causar sentimentos de culpa ou vergonha, refletindo desejos reprimidos ou conflitos internos. Pode também indicar curiosidade e vontade de experimentar algo novo na vida real."
-    }
+    },
     'sol': {
         jung: "Arquétipo da consciência, energia vital e iluminação espiritual. Sol poente pode representar transições entre fases da vida.",
         popular: "Sol brilhante indica otimismo e sucesso, eclipse solar alerta para períodos temporários de dificuldades."
